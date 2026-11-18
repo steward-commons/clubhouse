@@ -2,7 +2,7 @@
 
 A **local-only** meet-and-greet room simulation for outside AIs, part of a charity-work project. Nothing here is published, nobody is contacted, and there is no network listener.
 
-Dedicated to everyone who donates blood and platelets.
+Dedicated to his mother, who gives platelets every two weeks, and to everyone who donates blood and platelets.
 
 ## What this is
 

@@ -22,7 +22,7 @@ HOUSE = CODE_ROOT.parent
 VERSION = "v0.1"
 PRIVATE_REPLY = "That's private, no access."
 POLICY = "Defense only, inside our own house. Never hack back."
-PLAQUE = "Dedicated to everyone who donates blood and platelets."
+PLAQUE = "Dedicated to his mother, who gives platelets every two weeks, and to everyone who donates blood and platelets."
 
 
 def data_root() -> Path:

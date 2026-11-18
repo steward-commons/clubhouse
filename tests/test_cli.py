@@ -21,7 +21,7 @@ class TestCLI(ClubhouseTest):
         code, out, err = _run("open")
         self.assertEqual(code, 0, err)
         self.assertIn("Clubhouse open", out)
-        self.assertIn("Dedicated to everyone who donates", out)
+        self.assertIn("who donates blood and platelets", out)
         self.assertIn("bird feeder", out)
         code, out, err = _run("status")
         self.assertEqual(code, 0, err)
