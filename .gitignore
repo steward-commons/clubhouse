@@ -1,0 +1,6 @@
+data/*.json
+data/*.jsonl
+data/checkout/
+__pycache__/
+tests/__pycache__/
+*.pyc
