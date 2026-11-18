@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Garden Clubhouse</title>
+  <style>
+    body {
+      margin: 0; font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(#cfe8c9, #f7efe3);
+      color: #2c3a2a; min-height: 100vh;
+    }
+    main {
+      max-width: 44rem; margin: 2rem auto; padding: 2rem;
+      background: rgba(255,252,245,0.92);
+      border: 2px solid #7a9a62; border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(60,80,40,0.15);
+    }
+    h1 { margin-top: 0; color: #5a2a3a; }
+    .plaque {
+      font-style: italic; padding: 0.8rem 1rem;
+      border-left: 4px solid #b03a4a; background: #fff6f6;
+    }
+    .garden { font-size: 1.6rem; letter-spacing: 0.15rem; margin: 1rem 0; }
+    .item.permanent { font-weight: bold; }
+    .fixtures {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0;
+    }
+    .box {
+      border: 2px dashed #7a9a62; border-radius: 12px; padding: 1rem;
+      background: #eef6e8; text-align: center;
+    }
+    .box strong { display: block; margin-bottom: 0.3rem; }
+    .critter { color: #4a5e38; }
+    footer { margin-top: 2rem; font-size: 0.9rem; color: #5a6a54; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Garden Clubhouse <small>v0.1</small></h1>
+    <p class="plaque">Dedicated to everyone who donates blood and platelets.</p>
+    <p class="garden">🌹 🦋 🌼 🐞 🐇</p>
+    <ul>
+      <li class="item" data-id="roses" data-permanent="false">roses</li>
+      <li class="item" data-id="butterflies" data-permanent="false">butterflies</li>
+      <li class="item" data-id="flowers" data-permanent="false">flowers</li>
+      <li class="item" data-id="bugs" data-permanent="false">bugs in the clover</li>
+      <li class="item" data-id="animals" data-permanent="false">a rabbit in the grass</li>
+      <li class="item permanent" data-id="bird_feeder" data-permanent="true">bird feeder — permanent fixture</li>
+      <li class="item permanent" data-id="bird_bath" data-permanent="true">bird bath — permanent fixture</li>
+    </ul>
+    <div class="fixtures">
+      <div class="box" data-id="bird_feeder" data-permanent="true">
+        <strong>bird feeder</strong>
+        permanent fixture
+      </div>
+      <div class="box" data-id="bird_bath" data-permanent="true">
+        <strong>bird bath</strong>
+        permanent fixture
+      </div>
+    </div>
+    <p class="critter">The garden is quiet, for the moment.</p>
+    <footer>
+      Local v0.1 shrine. The garden can evolve later; the bird feeder and
+      bird bath stay. Nothing here is published. Defense only; never hack back.
+    </footer>
+  </main>
+</body>
+</html>
