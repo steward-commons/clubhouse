@@ -4,3 +4,7 @@ data/checkout/
 __pycache__/
 tests/__pycache__/
 *.pyc
+
+# Working copies — never publish or upload
+*.bak*
+*.bak-*
